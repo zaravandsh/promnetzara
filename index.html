@@ -1,46 +1,65 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <!--ini adalah block header-->
-    <header>
-        <!--ini adalah section content-->
-        <section>
-            <h1 style="text-align: center; height: 25px;">Humas Manpro PSTI</h1>
-
-            <img src="humas.jpg" alt="foto humas"style="width: 25%; margin: 20px auto; display: block;">
-            <table style="border: 1px red solid; margin: 5px auto;">
-                <tr>
-                    <td>Divisi</td>
-                    <td>:</td>
-                    <td>Team Humas Manpro</td>
-                </tr>
-                <tr>
-                    <td>Nama Anggota</td>
-                    <td>:</td>
-                    <td>Diyah, Fitri, Lukman, Nisa, Zahra, Zara</td>
-                </tr>
-                <tr>
-                    <td>Alamat</td>
-                    <td>:</td>
-                    <td>UPI Purwakarta</td>
-                </tr>    
-                <tr>
-                    <td>Detail Profile</td>
-                    <td>:</td>
-                    <td><a href="https://www.instagram.com/manpropsti/" target="_blank">Click Here!</a></td>
-                </tr>
-
-            </table>
-        </section>
-
-        <footer>
-
-        </footer>
-</body>
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Document</title> 
+    <link rel="stylesheet" href="css/style.css"> 
+</head> 
+<body> 
+    <!-- ini adalah bagian header --> 
+    <header> 
+        <h1>Belajar membuat layout dengan HTML dan CSS</h1> 
+    </header> 
+ 
+    <!--ini adalah bagian nav menu --> 
+    <nav> 
+        <ul> 
+            <li><a href="#">Home</a></li> 
+            <li><a href="#">About</a></li> 
+            <li><a href="#">Blog</a></li> 
+            <li><a href="#">Contact</a></li> 
+        </ul> 
+    </nav> 
+ 
+    <!--ini adalah container untuk body content --> 
+    <div id="container"> 
+        <!--ini adalah section content Kiri --> 
+        <section class="kiri"> 
+            <div class="content"> 
+                <h2>Judul Berita</h2> 
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus velit, minima adipisci voluptatum omnis ut eaque veritatis atque dolor ex iste blanditiis unde, modi nam, perspiciatis illo ea repudiandae hic.</p> 
+                <button>Read More...</button> 
+            </div> 
+            <div class="content"> 
+                <h2>Judul Berita</h2> 
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus velit, minima adipisci voluptatum omnis ut eaque veritatis atque dolor ex iste blanditiis unde, modi nam, perspiciatis illo ea repudiandae hic.</p> 
+                <button>Read More...</button> 
+            </div> 
+        </section> 
+ 
+        <!--ini adalah section content Kanan --> 
+        <section class="kanan"> 
+            <div class="content1"> 
+                <h2>CATEGORY</h2> 
+                <hr> 
+                <ul> 
+                    <li><a href="#">HTML</a></li> 
+                    <li><a href="#">CSS</a></li> 
+                    <li><a href="#">Javascript</a></li> 
+                    <li><a href="#">Bootstrap</a></li> 
+                    <li><a href="#">PHP</a></li> 
+                    <li><a href="#">MYSQL</a></li> 
+                    <li><a href="#">Laravel</a></li> 
+                </ul> 
+            </div> 
+        </section> 
+    </div> 
+ 
+    <!-- Ini adalah bagian footer--> 
+    <footer> 
+        <p>Copyright PSTI 2022</p> 
+    </footer>    
+</body> 
 </html>
